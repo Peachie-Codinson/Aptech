@@ -1,0 +1,22 @@
+### get all artist
+GET http://localhost:8080/api/artist
+
+### get artist by ID
+GET http://localhost:8080/api/artist/id/1
+
+### add new artist
+POST http://localhost:8080/api/artist
+Content-Type: application/json
+
+{
+  "artistName": "Artist Name 1"
+}
+
+
+### add new artist
+POST http://localhost:8080/api/artist
+Content-Type: application/json
+
+{
+  "artistName": "Artist Name 2"
+}

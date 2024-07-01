@@ -25,8 +25,9 @@ public class Order {
     private Integer userId;
 
     @NotNull
-    @Lob
+//    @Lob
     @Column(name = "status", nullable = false)
+    @Enumerated(EnumType.STRING)
     private Status status;
 
     @Column(name = "created_on")
